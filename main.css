@@ -3,5 +3,37 @@
 }
 
 body {
-  background: 
+  background: url(assets/freedom.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #333;
+  font-size: 100%;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  }
+
+.wrapper {
+  padding-top: 4rem;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 3.5rem;
+}
+
+.author {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  display: block;
+  margin: 1rem 0;
 }
